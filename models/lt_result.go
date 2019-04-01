@@ -1,5 +1,7 @@
 package models
-
+/*
+ * 抽奖结果表
+ */
 type LtResult struct {
 	Id         int    `xorm:"not null pk autoincr INT(10)" json:"-"`
 	GiftId     int    `xorm:"not null default 0 comment('奖品ID，关联lt_gift表') INT(10)" json:"gift_id"`

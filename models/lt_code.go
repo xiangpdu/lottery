@@ -1,5 +1,7 @@
 package models
-
+/*
+ * 优惠券表
+ */
 type LtCode struct {
 	Id         int    `xorm:"not null pk autoincr INT(10)"`
 	GiftId     int    `xorm:"not null default 0 comment('奖品ID，关联lt_gift表') INT(10)"`

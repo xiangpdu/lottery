@@ -1,5 +1,7 @@
 package models
-
+/*
+ * IP黑名单表
+ */
 type LtBlackip struct {
 	Id         int    `xorm:"not null pk autoincr INT(10)"`
 	Ip         string `xorm:"not null default '' comment('IP地址') VARCHAR(50)"`

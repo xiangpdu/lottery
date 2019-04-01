@@ -1,5 +1,7 @@
 package models
-
+/*
+ * 用户抽奖参与次数
+ */
 type LtUserday struct {
 	Id         int `xorm:"not null pk autoincr INT(10)"`
 	Uid        int `xorm:"not null default 0 comment('用户ID') INT(10)"`

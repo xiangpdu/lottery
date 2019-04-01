@@ -1,5 +1,7 @@
 package models
-
+/*
+ * 奖品表
+ */
 type LtGift struct {
 	Id           int    `xorm:"not null pk autoincr INT(10)" json:"id"`
 	Title        string `xorm:"not null default '' comment('奖品名称') VARCHAR(255)" json:"title"`

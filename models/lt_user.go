@@ -1,5 +1,9 @@
 package models
 
+/*
+ * 用户的数据库表
+**/
+
 type LtUser struct {
 	Id         int    `xorm:"not null pk autoincr INT(10)"`
 	Username   string `xorm:"not null default '' comment('用户名') VARCHAR(50)"`
